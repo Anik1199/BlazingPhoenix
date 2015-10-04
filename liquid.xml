@@ -6,10 +6,11 @@
 
    <!--Devices-->
   <project name="srisurya95/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lsd" />
-
+  <project name="srisurya95/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="lsd" />
    <!--Device Commons-->
   <project name="srisurya95/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="liquid" />
-
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
    <!--Kernels-->
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
 
