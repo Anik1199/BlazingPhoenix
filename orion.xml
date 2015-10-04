@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote fetch="file:///android" name="phoenix" />
-  <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
-    <copyfile dest="phoenix.sh" src="orion.sh" />
-</project>
+  <remote fetch="file:///android" name="phoenix" />
+    <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
+      <copyfile dest="phoenix.sh" src="orion.sh" />
+  </project>
 
 <!--OTA Stuff -->
  <project path="ota" name="yeshwanthvshenoy/orion_ota" remote="github" revision="ota" >
@@ -13,15 +13,7 @@
 
 <!--Vendors-->
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1"/>
-
-<!--Devices-->
- <project path="device/motorola/falcon" name="TeamOrion-Devices/device_motorola_falcon" remote="github" revision="lp5.1" />
-
-<!--Device Commons-->
- <project path="device/motorola/msm8226-common" name="TeamOrion-Devices/device_motorola_msm8226-common" remote="github" revision="lp5.1" />
-
-<!--Kernels-->
- <project path="kernel/motorola/msm8226" name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" remote="github" revision="lp5.1" />
+ <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1"/>
 
 </manifest>
 
