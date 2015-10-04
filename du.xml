@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="file:///android" name="phoenix" />
+  <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
+    <copyfile dest="phoenix.sh" src="du.sh" />
+  </project>
+
+   <!--Vendors-->
+   <project name="DirtyUnicorns/android_vendor_motorola" path="vendor/motorola" remote="github" revision="lollipop-caf" />
+
+   <!--Devices-->
+   <project name="DirtyUnicorns/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lollipop-caf" />
+
+   <!--Device Commons-->
+   <project name="DirtyUnicorns/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="lollipop-caf" />
+   <project name="DirtyUnicorns/android_device_qcom-common" path="device/qcom/common" remote="github" revision="lollipop-caf" />
+
+   <!--Kernels-->
+   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
+
+   <!--Misc-->
+   <project name="DirtyUnicorns/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lollipop-caf" />
+
+</manifest>
+

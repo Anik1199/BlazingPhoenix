@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <!--Vendors-->
+   <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
+
+   <!--Devices-->
+   <project path="device/google/sprout4" name="Anik1199/android_device_google_sprout4" remote="github" revision="cr" />
+   <project name="crdroid-devices/android_device_samsung_jfltexx" path="device" remote="github" revision="5.1.1" />
+
+   <!--Device Commons-->
+   <project path="device/google/sprout-common" name="CyanogenMod/android_device_google_sprout-common" remote="github" revision="cm-12.1" />
+
+   <!--Kernels-->
+   <project path="kernel/mediatek/sprout" name="akhilnarang/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
+
+   <!--Misc-->
+   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
+
+</manifest>
+

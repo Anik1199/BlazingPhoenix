@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--Device-->
+  <project name="android_device_yu_lettuce" path="device/yu/lettuce" remote="ss" revision="pac-5.1" />
+
+  <!--Device common-->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="ss" revision="pac-5.1" />
+  <project name="android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="ss" revision="pac-5.1" />
+
+  <!--Misc-->
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="ss" revision="pac-5.1" />
+
+  <!--Vendor-->
+  <project name="proprietary_vendor_yu" path="vendor/yu" remote="pic" revision="cm-12.1" />
+
+</manifest>
