@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--Device-->
-  <project name="android_device_yu_lettuce" path="device/yu/lettuce" remote="ss" revision="pac-5.1" />
 
-  <!--Device common-->
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="ss" revision="pac-5.1" />
-  <project name="android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="ss" revision="pac-5.1" />
+   <!--Vendors-->
+   <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
 
-  <!--Misc-->
-  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="ss" revision="pac-5.1" />
+   <!--Devices-->
+   <project path="device/yu/lettuce" name="pranav01/android_device_yu_lettuce" remote="github" revision="pac-5.1" />
+   <project path="device/yu/tomato" name="CyanogenMod/android_device_yu_tomato" remote="github" revision="cm-12.1" />
 
-  <!--Vendor-->
-  <project name="proprietary_vendor_yu" path="vendor/yu" remote="pic" revision="cm-12.1" />
+   <!--Device Commons-->
+   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+   <project path="device/cyanogen/msm8939-common" name="CyanogenMod/android_device_cyanogen_msm8939-common" remote="github" revision="cm-12.1" />
+   <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" remote="github" revision="cm-12.1" />
+
+   <!--Kernels-->
+   <project path="kernel/cyanogen/msm8916" name="CyanogenMod/android_kernel_cyanogen_msm8916" remote="github" revision="cm-12.1-amss-1.0.2" />
+   
+   <!--Misc-->
+   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
 
 </manifest>
