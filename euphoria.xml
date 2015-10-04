@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <!--Yeshwanth's Resources-->
+  <project path="device/htc/m8" name="yeshwanthvshenoy/android_device_htc_m8" remote="github" revision="euphoria" />
+
+</manifest>
