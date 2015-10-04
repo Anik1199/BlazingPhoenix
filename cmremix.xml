@@ -38,7 +38,6 @@
    <project name="ramsudharsan/linux-kernel-surnia" path="kernel/motorola/msm8916" remote="github" revision="master" />
 
    <!--Miscellaneous-->
-   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
 
 </manifest>
