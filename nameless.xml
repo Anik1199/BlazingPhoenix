@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="NamelessRom/android_vendor_nameless" />
+  <project path="vendor/nameless" name="ujwalp15/android_vendor_nameless" remote="github" revision="nm-5.1" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
+  <project path="device/google/sprout4" name="ujwalp15/android_device_google_sprout4" remote="github" revision="nm-5.1" />
+  <project path="device/google/sprout-common" name="CyanogenMod/android_device_google_sprout-common" remote="github" revision="cm-12.1" />
+  <project name="Fusion-Devices/android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="github" revision="cm-12.1" />
+  <project path="device/google/sprout8" name="ujwalp15/android_device_google_sprout8" remote="github" revision="nm-5.1" />
+  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
+ 
+</manifest>
