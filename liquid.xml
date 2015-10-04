@@ -2,12 +2,16 @@
 <manifest>
 
    <!--Vendors-->
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
 
    <!--Devices-->
+  <project name="srisurya95/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="liquid" />
 
    <!--Device Commons-->
+  <project name="srisurya95/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="liquid" />
 
    <!--Kernels-->
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
 
 </manifest>
 
