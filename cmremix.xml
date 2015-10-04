@@ -8,8 +8,8 @@
 
    <remove-project name="android_vendor_SaberMod"/>
    <remove-project name="android_vendor_CMRemix"/>
-   <project name="ramsudharsan/android_vendor_SaberMod" path="android_vendor_SaberMod" remote="github" revision="cm-12.1" />
-   <project name="ramsudharsan/android_vendor_CMRemix" path="android_vendor_CMRemix" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/android_vendor_SaberMod" path="vendor/sm" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/android_vendor_CMRemix" path="vendor/cmremix" remote="github" revision="cm-12.1" />
 
    <!--Vendors-->
    <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
