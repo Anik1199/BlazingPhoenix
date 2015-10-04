@@ -6,17 +6,24 @@
     <copyfile dest="phoenix.sh" src="cmremix.sh" />
  </project>
 
+   <remove-project name="android_vendor_SaberMod"/>
+   <remove-project name="android_vendor_CMRemix"/>
+   <project name="ramsudharsan/android_vendor_SaberMod" path="android_vendor_SaberMod" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/android_vendor_CMRemix" path="android_vendor_CMRemix" remote="github" revision="cm-12.1" />
+
    <!--Vendors-->
    <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
    <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
    <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-12.1" />
-   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+   <!-- <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" /> -->
 
    <!--Devices-->
    <project name="akhilnarang/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cmR" />
    <project name="ujwalp15/android_device_google_sprout4" path="device/google/sprout4" remote="github" revision="cr-5.1" />
    <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-12.1" />
    <project name="CyanogenMod/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/android_device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="cm-12.1" />
 
    <!--Device Commons-->
    <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.1" />
@@ -28,6 +35,11 @@
    <project name="akhilnarang/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-12.1" />
    <project name="Cyanogenmod/android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="github" revision="cm-12.1" />
    <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
+   <project name="ramsudharsan/linux-kernel-surnia" path="kernel/motorola/msm8916" remote="github" revision="master" />
+
+   <!--Miscellaneous-->
+   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
 
 </manifest>
 
