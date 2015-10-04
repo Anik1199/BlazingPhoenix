@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="gh" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="gh" revision="cm-12.1" />
+ 
+<!--jfltexx-->
+  <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="gh" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="gh" revision="cm-12.1" />
+ 
+<!--kltespr-->
+  <project name="CyanogenMod/android_device_samsung_kltespr" path="device/samsung/kltespr" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="gh" revision="cm-12.1" />
+
+</manifest>
