@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote fetch="file:///android" name="phoenix" />
+  <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
+    <copyfile dest="phoenix.sh" src="crdroid.sh" />
+ </project>
+
    <!--Vendors-->
    <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
 
