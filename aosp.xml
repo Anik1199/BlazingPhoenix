@@ -22,5 +22,11 @@
   <project name="F-AOSP/platform_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="aosp-5.1-8916" />
   <project name="F-AOSP/platform_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github" revision="aosp-5.1-8916" />
   <project name="F-AOSP/platform_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="aosp-5.1-8916" />
+ <!--Devices-->
+  <project path="device/xiaomi/cancro" name="srisurya95/android_device_xiaomi_cancro" remote="github" revision="aosp" />
+  <!--Kernels-->
+  <project path="kernel/xiaomi/cancro" name="CyanogenMod/android_kernel_xiaomi_cancro" remote="github" revision="cm-12.1" />
+  <!--Vendor-->
+ <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
 
 </manifest>
