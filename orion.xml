@@ -12,8 +12,6 @@
  </project>
 
 <!--Vendors-->
- <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1"/>
- <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1"/>
  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1" />
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1"/>
  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
