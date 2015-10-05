@@ -47,7 +47,7 @@
 
 <!--Devices commons-->
  <project path="device/sony/shinano-common" name="TeamOrion-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" /> 
- <project path="device/samsung/jf-common" name="SlimRoms/device_samsung_jf-common" remote="github" revision="lp5.1" /> 
+ <project path="device/samsung/jf-common" name="TeamOrion-Devices/device_samsung_jf-common" remote="github" revision="lp5.1" /> 
  <project path="device/motorola/msm8226-common" name="TeamOrion-Devices/device_motorola_msm8226-common" remote="github" revision="lp5.1" />
  <project path="device/lge/g3-common" name="SlimRoms/device_lge_g3-common" remote="github" revision="lp5.1" />
  <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="lp5.1"/>
