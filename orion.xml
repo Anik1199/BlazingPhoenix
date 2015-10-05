@@ -79,7 +79,6 @@
  <project path="kernel/samsung/smdk4412" name="CyanideL/android_kernel_samsung_smdk4412" remote="github" revision="cm-12.1" />
  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.1" />
  <!--<project path="kernel/motorola/msm8610" name="sultanqasim/android_kernel_motorola_otus" remote="github" revision="cm-12.1" />-->
- <project path="kernel/cyanogen/msm8916" name="CyanogenMod/android_kernel_cyanogen_msm8916" remote="github" revision="cm-12.1-amss-1.0.2" />
  
 <!--Sony Sensors-->
  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" /> 
