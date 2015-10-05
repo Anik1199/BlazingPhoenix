@@ -12,6 +12,7 @@
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+
   <!-- Motorola MSM8916 -->
   <project name="Alberto97/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="aosp-5.1" />
   <project name="CyanogenMod/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />
@@ -29,4 +30,11 @@
   <!--Vendor-->
  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
 
+ <!--HTC One M8-->
+ <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1" />
+ <project path="device/htc/m8" name="yeshwanthvshenoy/android_device_htc_m8" remote="github" revision="aosp" />
+ <project path="device/htc/m8-common" name="yeshwanthvshenoy/android_device_htc_m8-common" remote="github" revision="aosp" />
+ <project path="device/htc/msm8974-common" name="CyanogenMod/android_device_htc_msm8974-common" remote="github" revision="cm-12.1" />
+ <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.1" />
+ 
 </manifest>
