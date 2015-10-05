@@ -8,7 +8,7 @@
   
    <!--Devices-->
   <project name="srisurya95/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lsd" />
-  <project name="srisurya95/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lsd" />
+  <project name="srisurya95/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="lsd" />
   <project name="akhilnarang/liquid-bacon" path="device/oneplus/bacon" remote="github" revision="oneplus/bacon" />
    <!--Device Commons-->
   <project name="srisurya95/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="liquid" />
