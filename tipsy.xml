@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
+  <project path="device/google/sprout4" name="akhilnarang/device_google_sprout" remote="github" revision="teepsee-oess" />
+  <project path="device/google/sprout-common" name="UberSlim/device_google_sprout-common" remote="github" revision="lp5.1" />
+  <project path="kernel/mediatek/sprout" name="akhilnarang/android_kernel_mediatek_sprout" remote="github" revision="tipsy" />
+  <project path="packages/apps/DeviceHandler" name="TipsyOs/packages_apps_DeviceHandler" remote="github" revision="lp5.1" />
+</manifest>
