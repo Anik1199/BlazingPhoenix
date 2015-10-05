@@ -58,6 +58,7 @@
 <!--Misc needs-->
  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
  <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" remote="github" revision="cm-12.1" />
+ <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="github" revision="cm-12.1" />
 
 <!--Kernels-->
  <project path="kernel/motorola/msm8226" name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" remote="github" revision="lp5.1" />
