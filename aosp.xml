@@ -34,7 +34,6 @@
  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1" />
  <project path="device/htc/m8" name="yeshwanthvshenoy/android_device_htc_m8" remote="github" revision="aosp" />
  <project path="device/htc/m8-common" name="yeshwanthvshenoy/android_device_htc_m8-common" remote="github" revision="aosp" />
- <project path="device/htc/msm8974-common" name="CyanogenMod/android_device_htc_msm8974-common" remote="github" revision="cm-12.1" />
  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.1" />
  
 </manifest>
