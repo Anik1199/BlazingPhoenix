@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bit"
+           fetch="https://bitbucket.org/" />
+  <project path="device/google/sprout4" name="ujwalp15/android_device_google_sprout4" remote="github" revision="ss-5.1" />
+  <project path="device/google/sprout-common" name="akhilnarang/android_device_google_sprout-common" remote="github" revision="eos-aosp" />
+  <project path="device/google/sprout8" name="CyanogenMod/android_device_google_sprout8" remote="github" revision="cm-12.1" />
+  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a7" name="akhilnarang/arm-linux-androideabi-4.9-cortex-a7" remote="bit" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a7" name="akhilnarang/arm-eabi-4.9-cortex-a7" remote="bit" revision="master" />
+</manifest>
