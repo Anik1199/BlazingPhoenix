@@ -30,8 +30,8 @@
   <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-12.1" />
   <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1_clean" />
   <project name="MotoG3/android_vendor_motorola_osprey" path="vendor/motorola/osprey" remote="github" revision="cm-12.1" />
-  <!--<project name="boulzordev/android_vendor_motorola_lux" path="vendor/motorola/lux" remote="github" revision="cm-12.1" />
-  <project path="vendor/oneplus" name="Grarak/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />-->
+  <project path="vendor/oneplus" name="Grarak/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />
+  <project name="boulzordev/android_vendor_motorola_lux" path="vendor/motorola/lux" remote="github" revision="cm-12.1" />
 <!--Devices-->
   <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="r-d" revision="5.1" />
   <project name="device_google_sprout4" path="device/google/sprout4" remote="r-d" revision="5.1" />
@@ -49,7 +49,7 @@
   <project name="device_motorola_falcon" path="device/motorola/falcon" remote="r-d" revision="5.1" />
   <project name="device_motorola_osprey" path="device/motorola/osprey" remote="r-d" revision="5.1" />
   <project name="yeshwanthvshenoy/android_device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="github" revision="radium" />
-  
+  <project name="yeshwanthvshenoy/android_device_motorola_lux" path="device/motorola/lux" remote="github" revision="radium" />
 <!--Misc needs-->
   <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="cm" revision="cm-12.1" />
   <project name="android_external_mm-dash" path="external/mm-dash" remote="cm" revision="cm-12.1" />
@@ -78,15 +78,13 @@
   <project name="Radium_yu" path="kernel/cyanogen/msm8916" remote="r-d" revision="5.1" />
   <project name="android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-12.1" />
   <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-12.1" />
-  <project name="MotoG3/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />
-  <!--<project name="boulzordev/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />
-  <project path="kernel/oneplus/msm8994" name="Grarak/android_kernel_oneplus_msm8994" remote="github" revision="cm-12.1" />-->
+  <!--<project name="MotoG3/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />-->
+  <project path="kernel/oneplus/msm8994" name="Grarak/android_kernel_oneplus_msm8994" remote="github" revision="cm-12.1" />
+  <project name="boulzordev/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />
   
 <!-- Sensors HAL -->
   <project name="android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" revision="cm-12.1" />
-<!--Lux Needs-->
- <project name="sultanqasim/gcc-linaro-4.9_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-4.9" remote="github" revision="master" />
- 
+
  <remote fetch="file:///android" name="phoenix" />
   <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
     <copyfile dest="phoenix.sh" src="radium.sh" />
