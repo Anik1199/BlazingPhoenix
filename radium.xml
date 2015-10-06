@@ -30,7 +30,7 @@
   <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-12.1" />
   <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1_clean" />
   <project name="MotoG3/android_vendor_motorola_osprey" path="vendor/motorola/osprey" remote="github" revision="cm-12.1" />
-  <project path="vendor/oneplus" name="Grarak/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />
+  <!--<project path="vendor/oneplus" name="Grarak/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />-->
   <project name="boulzordev/android_vendor_motorola_lux" path="vendor/motorola/lux" remote="github" revision="cm-12.1" />
 <!--Devices-->
   <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="r-d" revision="5.1" />
