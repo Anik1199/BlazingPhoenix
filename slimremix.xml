@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote fetch="file:///android" name="phoenix" />                   <project name="scripts" path="scripts" remote="phoenix" revision=$
+<copyfile dest="phoenix.sh" src="slimremix.sh" />
+</project>
+
    <!--Vendors-->
      <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
      <project name="SlimSaber/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lp5.1" />
