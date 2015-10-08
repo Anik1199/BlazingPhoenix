@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <!--Yeshwanth's Resources-->
+<!--Vendor-->
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1" />
+  
+<!--Device-->
   <project path="device/htc/m8" name="yeshwanthvshenoy/android_device_htc_m8" remote="github" revision="euphoria" />
+  
+<!--Device Common-->
+  <project path="device/htc/m8-common" name="yeshwanthvshenoy/android_device_htc_m8-common" remote="github" revision="euphoria" />
 
+<!--Misc Commons-->
+  <project path="device/htc/msm8974-common" name="CyanogenMod/android_device_htc_msm8974-common" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  
+<!-- Kernel-->
+  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.1" />
 </manifest>
