@@ -15,4 +15,13 @@
 <!--Misc needs-->
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
     <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
+
+
+<!--falcon-->
+  <project name="TechVeerA/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="to" />
+  <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+
 </manifest>
