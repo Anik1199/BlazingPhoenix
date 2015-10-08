@@ -80,7 +80,7 @@
   <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-12.1" />
   <!--<project name="MotoG3/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />-->
   <project path="kernel/oneplus/msm8994" name="Grarak/android_kernel_oneplus_msm8994" remote="github" revision="cm-12.1" />
-  <project name="boulzordev/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="cm-12.1" />
+  <project name="Radium-Devices/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="5.1" />
   
 <!-- Sensors HAL -->
   <project name="android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" revision="cm-12.1" />
