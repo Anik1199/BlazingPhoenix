@@ -15,5 +15,5 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
   
 <!-- Kernel-->
-  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.1" />
+  <project path="kernel/htc/msm8974" name="CandyDevices/kernel_htc_msm8974" remote="github" revision="c5.1" />
 </manifest>

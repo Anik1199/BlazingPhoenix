@@ -13,7 +13,7 @@
    <project name="android_device_oneplus_bacon" path="device/oneplus/bacon" remote="fs-dev" revision="lp5.1" />
    <project name="android_device_motorola_titan" path="device/motorola/titan" remote="fs-dev" revision="lp5.1" />
    <project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="fs-dev" revision="lp5.1" />
-
+   <project name="android_device_motorola_osprey" path="device/motorola/osprey" remote="fs-dev" revision="lp5.1" />
     <!--Device Commons-->
    <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="fs-dev" revision="lp5.1" />
    <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="fs-dev" revision="lp5.1" />
@@ -25,9 +25,10 @@
    <project name="android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="fs-dev" revision="cm-12.1" />
    <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="fs-dev" revision="lp5.1" />
    <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="fs-dev" revision="lp5.1" />
+   <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="fs-dev" revision="lp5.1" />
 
    <!--Misc-->
    <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
-
+   <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
 </manifest>
 
