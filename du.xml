@@ -13,13 +13,13 @@
 
    <!--Device Commons-->
    <project name="srisurya95/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="du-thug" />
-   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+   <project name="DirtyUnicorns/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop-caf" />
 
    <!--Kernels-->
    <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
 
    <!--Misc-->
-   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+   <project name="DirtyUnicorns/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lollipop-caf" />
 
 </manifest>
 
