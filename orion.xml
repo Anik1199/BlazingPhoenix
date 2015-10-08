@@ -26,6 +26,7 @@
  <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
  <project path="vendor/samsung" name="theloonybin/proprietary_vendor_samsung" remote="github" revision="lp5.1" />
  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
+ <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
 
 <!--Devices-->
  <project path="device/motorola/falcon" name="TeamOrion-Devices/device_motorola_falcon" remote="github" revision="lp5.1" />
@@ -45,7 +46,8 @@
  <project path="device/motorola/otus" name="shelbinkidangan/android_device_motorola_otus" remote="github" revision="Orion-LP" />
  <project path="device/yu/lettuce" name="pranav01/yu_lettuce" remote="github" revision="orion" />
  <project name="TeamOrion-Devices/device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="lp5.1"/>
-
+ <project path="device/google/sprout4" name="pranav01/android_device_google_sprout4" remote="github" revision="orion" /> 
+ 
 <!--Devices commons-->
  <project path="device/sony/shinano-common" name="TeamOrion-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" /> 
  <project path="device/samsung/jf-common" name="TeamOrion-Devices/device_samsung_jf-common" remote="github" revision="lp5.1" /> 
@@ -58,12 +60,14 @@
  <project path="device/samsung/smdk4412-qcom-common" name="CyanideL/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-12.1" />
  <project path="device/samsung/smdk4412-common" name="mrhainavn/android_device_samsung_smdk4412-common" remote="github" revision="cm-12.1" />
  <project path="device/cyanogen/msm8916-common" name="minidude2012/device_cyanogen_msm8916-common" remote="github" revision="lp5.1" />
+ <project path="device/google/sprout-common" name="pranav01/android_device_google_sprout-common" remote="github" revision="patch" />
 
 <!--Misc needs-->
  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
  <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" remote="github" revision="cm-12.1" />
  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="github" revision="cm-12.1" />
  <project path="device/samsung/qcom-common" name="SlimRoms/device_samsung_qcom-common" remote="github" revision="lp5.1" />
+ <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
  
 <!--Kernels-->
  <project path="kernel/motorola/msm8226" name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" remote="github" revision="lp5.1" />
@@ -81,7 +85,8 @@
  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.1" />
  <!--<project path="kernel/motorola/msm8610" name="sultanqasim/android_kernel_motorola_otus" remote="github" revision="cm-12.1" />-->
  <project path="kernel/motorola/msm8916" name="SlimRoms/kernel_motorola_msm8916" remote="github" revision="lp5.1"/>
-
+ <project path="kernel/mediatek/sprout" name="CyanogenMod/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
+ 
 <!--Sony Sensors-->
  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" /> 
 <!--Samsung Hardware-->
