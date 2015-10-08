@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="TechVeerA/android_device_motorola_falcon" path="device/motorola/falcon" remote="gh" revision="to" />
+  <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="gh" revision="cm-12.1" />
+ 
+</manifest>
