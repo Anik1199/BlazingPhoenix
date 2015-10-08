@@ -13,7 +13,7 @@
 
 <!--Vendors-->
  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.1" />
- <project path="vendor/motorola" name="TheLoonyBin/proprietary_vendor_motorola" remote="github" revision="lp-5.1"/>
+ <project path="vendor/motorola" name="TheLoonyBin/proprietary_vendor_motorola" remote="github" revision="lp5.1"/>
  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.1" />
