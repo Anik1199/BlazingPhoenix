@@ -13,7 +13,7 @@
 <project name="srisurya95/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="du" />
    <!--Device Commons-->
    <project name="srisurya95/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="du" />
-   <project name="DirtyUnicorns/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop-caf" />
+   <project name="DirtyUnicorns/android_device_qcom-common" path="device/qcom/common" remote="github" revision="lollipop-caf" />
 
    <!--Kernels-->
    <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
