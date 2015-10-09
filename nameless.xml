@@ -8,5 +8,13 @@
   <project name="Fusion-Devices/android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="github" revision="cm-12.1" />
   <project path="device/google/sprout8" name="ujwalp15/android_device_google_sprout8" remote="github" revision="nm-5.1" />
   <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
- 
+  <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
+  <project path="device/yu/lettuce" name="pranav01/android_device_yu_lettuce-2" remote="github" revision="nl" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="device/cyanogen/msm8916-common" name="pranav01/android_device_cyanogen_msm8916-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/cyanogen/msm8916" name="CyanogenMod/android_kernel_cyanogen_msm8916" remote="github" revision="cm-12.1-amss-1.0.2" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-8916" />
 </manifest>
