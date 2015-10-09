@@ -6,7 +6,7 @@
   </project>
 
    <!--Vendors-->
-   <project name="TheMuppets/android_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
 
    <!--Devices-->
    <project name="srisurya95/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="du" />
