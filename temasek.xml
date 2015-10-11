@@ -9,4 +9,3 @@
     <copyfile src="temasek.sh" dest="phoenix.sh" />
   </project>
 </manifest>
-

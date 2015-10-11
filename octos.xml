@@ -21,7 +21,13 @@
   <project name="TechVeerA/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="to" />
   <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <remove-project name="platform_vendor_to" />
+  <project name="TechVeerA/platform_vendor_to" path="vendor/to" remote="github" revision="to" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
+  
+  <!-- Build Script -->
+  <project name="akhilnarang/scripts" path="scripts" remote="github" revision="blazingphoenix">
+             <copyfile src="oct.sh" dest="phoenix.in" />
+  </project>
 
 </manifest>

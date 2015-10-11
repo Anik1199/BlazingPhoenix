@@ -4,32 +4,30 @@
 <remote name="akhil"
         fetch="https://bitbucket.org/akhilnarang" />
 
-<remote name="bitbucket"
-          fetch="https://bitbucket.org/" />
-<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
-<project name="arm-linux-androideabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a7" remote="akhil" revision="master" />
-  <project name="arm-eabi-5.2-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-cortex-a7" remote="akhil" revision="master" />
-  <project name="ResurrectionRemix-Devices/android_device_google_sprout8" path="device/google/sprout_b" remote="github" revision="lollipop5.1" />
-  <project name="ResurrectionRemix-Devices/android_device_google_sprout" path="device/google/sprout" remote="github" revision="cm-12.1" />
-  <project name="ResurrectionRemix-Devices/android_device_google_sprout-common" path="device/google/sprout-common" remote="github" revision="lollipop5.1" />
-  <project name="OwnROM-Devices/OwnKernel-sprout" path="kernel/mediatek/sprout" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+  <project name="arm-linux-androideabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a7" remote="akhil" revision="master" />
+  <project name="arm-eabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a7" remote="akhil" revision="master" />
+  <project name="android_device_google_sprout8" path="device/google/sprout_b" remote="rrd" revision="lollipop5.1" />
+  <project name="android_device_google_sprout" path="device/google/sprout" remote="rrd" revision="cm-12.1" />
+  <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="rrd" revision="lollipop5.1" />
+  <project name="akhilnarang/android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-12.1" />
-  <project name="ResurrectionRemix-Devices/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-12.1" />
+  <project name="proprietary_vendor_google" path="vendor/google" remote="rrd" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
-  <project name="ResurrectionRemix-Devices/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="cm-12.1" />
-  <project name="ResurrectionRemix-Devices/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="cm-12.1" />
+  <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="rrd" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="Radium-Devices/Radium_jflte" path="kernel/samsung/jf" remote="github" revision="5.1" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1_clean" />
+  <project name="AdrianDC/aicp_proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lp5.1" />
   <project name="ResurrectionRemix-Devices/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
   <project name="AdrianDC/android_kernel_sony_msm8x60" path="kernel/sony/msm8x60" remote="github" revision="cm-12.1_clean" />
-<project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
-<project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
-<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
-<remote fetch="file:///android" name="phoenix" />
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <remote fetch="file:///android" name="phoenix" />
   <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
     <copyfile dest="phoenix.sh" src="rr.sh" />
-</project>
+  </project>
 </manifest>
 
