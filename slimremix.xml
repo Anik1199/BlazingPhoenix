@@ -9,7 +9,7 @@
      <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
      <project name="SlimSaber/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lp5.1" />
      <project name="SlimSaber/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="lp5.1" />
-
+     <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
    <!--Devices-->
      <project path="device/google/sprout4" name="Anik1199/android_device_google_sprout4" remote="github" revision="slim" />
      <project name="SlimSaber/device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lp5.1" />
