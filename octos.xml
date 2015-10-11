@@ -24,5 +24,10 @@
   <remove-project name="platform_vendor_to" />
   <project name="TechVeerA/platform_vendor_to" path="vendor/to" remote="github" revision="to" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  
+  <!-- Build Script -->
+  <project name="akhilnarang/scripts" path="scripts" remote="github" revision="blazingphoenix">
+             <copyfile src="oct.sh" dest="phoenix.in" />
+  </project>
 
 </manifest>
