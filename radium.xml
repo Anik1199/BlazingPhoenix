@@ -57,7 +57,7 @@
   <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" revision="cm-12.1" />
 
 <!--Devices commons-->
-  <project name="android_device_oppo_common" path="device/oppo/common" remote="cm" revision="cm-12.1" />
+
   <project name="device_google_sprout-common" path="device/google/sprout-common" remote="r-d" revision="5.1" />
   <project name="android_device_sony_common" path="device/sony/common" remote="cm" revision="cm-12.1" />
   <project name="android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="cm" revision="cm-12.1" />
