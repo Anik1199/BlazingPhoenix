@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="akhil"
-        fetch="https://bitbucket.org/akhilnarang" />
+<remote name="bit"
+        fetch="https://bitbucket.org/" />
 
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
-  <project name="arm-linux-androideabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a7" remote="akhil" revision="master" />
-  <project name="arm-eabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a7" remote="akhil" revision="master" />
+  <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bit" revision="master" />
+  <project name="akhilnarang/arm-eabi-4.9-cortex-a7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a7" remote="akhil" revision="master" />
   <project name="android_device_google_sprout8" path="device/google/sprout_b" remote="rrd" revision="lollipop5.1" />
   <project name="android_device_google_sprout" path="device/google/sprout" remote="rrd" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_google_sprout-common" path="device/google/sprout-common" remote="github" revision="cm-12.1" />
