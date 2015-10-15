@@ -23,6 +23,8 @@
   <project name="ResurrectionRemix-Devices/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
   <project name="AdrianDC/android_kernel_sony_msm8x60" path="kernel/sony/msm8x60" remote="github" revision="cm-12.1_clean" />
  <project name="Anik1199/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
+ <project name="AICP/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lp5.1" />
+ <project name="AICP/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="lp5.1" />
  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
