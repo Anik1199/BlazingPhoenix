@@ -31,8 +31,8 @@
   <project name="akhilnarang/scripts" path="scripts" remote="github" revision="blazingphoenix">
     <copyfile dest="phoenix.sh" src="rr.sh" />
   </project>
-   <!--Repositories to fetch-->
-  <!--
+  <!--Repositories to fetch-->
+
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
@@ -47,6 +47,6 @@
   <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-12.1-caf" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
   <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" revision="cm-12.1-caf" />
--->
+
 </manifest>
 
