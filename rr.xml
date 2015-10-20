@@ -15,6 +15,7 @@
   <project name="proprietary_vendor_google" path="vendor/google" remote="rrd" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" />
   <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="rrd" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="Radium-Devices/Radium_jflte" path="kernel/samsung/jf" remote="github" revision="5.1" />
@@ -43,7 +44,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="sultanxda/android_hardware_qcom_audio" revision="cm-12.1-caf" />
   <project path="hardware/qcom/display-caf/msm8974" name="sultanxda/android_hardware_qcom_display" revision="cm-12.1-caf" />
   <project path="hardware/qcom/media-caf/msm8974" name="sultanxda/android_hardware_qcom_media" revision="cm-12.1-caf" />
-  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" revision="cm-12.1-caf" />
+  <project path="kernel/oneplus/msm8974" name="anarkia1976/AK-OnePlusOne-CAF" revision="ak-12.1-official-CAF" />
   <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-12.1-caf" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
   <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" revision="cm-12.1-caf" />
