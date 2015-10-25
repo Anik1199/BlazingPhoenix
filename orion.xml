@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="file:///android" name="phoenix" />
-  <project name="scripts" path="scripts" remote="phoenix" revision="blazingphoenix">
+  <project name="akhilnarang/scripts" path="scripts" remote="github" revision="blazingphoenix">
     <copyfile dest="phoenix.sh" src="orion.sh" />
   </project>
 
