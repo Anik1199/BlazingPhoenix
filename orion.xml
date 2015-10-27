@@ -63,7 +63,7 @@
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="cm-12.1-amss-1.0.2" />
-  <project name="CyanideL/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.1" />
+  <project name="VRToxin-Devices/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="mm6.0" />
   <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
   <project name="SlimRoms/kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="lp5.1" />
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
