@@ -7,7 +7,7 @@
     <copyfile dest="ota_conf" src="ota_conf" />
   </project>
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-12.1" />
-  <project name="TheLoonyBin/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lp5.1" />
+  <project name="minidude2012/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lp5.1" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-12.1" />
