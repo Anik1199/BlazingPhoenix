@@ -22,6 +22,7 @@
   <project name="armani-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-12.1" />
   <project name="TeamOrion-Devices/device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="lp5.1" />
+  <project name="TeamOrion-Devices/device_motorola_clark" path="device/motorola/clark" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_htc_m8" path="device/htc/m8" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_motorola_condor" path="device/motorola/condor" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_sony_z3" path="device/sony/z3" remote="github" revision="lp5.1" />
@@ -55,6 +56,7 @@
   <project name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lp5.1" />
   <project name="SlimRoms/kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="lp5.1" />
+  <project name="AICP/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="lp5.1" />
   <project name="SlimRoms/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="lp5.1" />
   <project name="SlimRoms/kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="lp5.1" />
   <project name="XperiaDevZ/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="lp5.1" />
@@ -67,6 +69,8 @@
   <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
   <project name="SlimRoms/kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="lp5.1" />
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
   <project name="jlmancuso/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_google_sprout" path="device/google/sprout" remote="github" revision="lp5.1" />
   <project name="UberSlim/device_google_sprout-common" path="device/google/sprout-common" remote="github" revision="lp5.1" />
