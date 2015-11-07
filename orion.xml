@@ -69,7 +69,6 @@
   <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
   <project name="SlimRoms/kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="lp5.1" />
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
   <project name="jlmancuso/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
   <project name="TeamOrion-Devices/device_google_sprout" path="device/google/sprout" remote="github" revision="lp5.1" />
