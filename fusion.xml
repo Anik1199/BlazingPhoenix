@@ -2,7 +2,7 @@
 <manifest>
 
    <!--Vendors-->
-   <project name="Fusion-Devices/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
    <project name="Fusion-Devices/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
    <project name="Fusion-Devices/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
    <project name="Fusion-Devices/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-12.1" />
@@ -25,10 +25,11 @@
    <project name="android_kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="fs-dev" revision="cm-12.1" />
    <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="fs-dev" revision="lp5.1" />
    <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="fs-dev" revision="lp5.1" />
-   <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="fs-dev" revision="lp5.1" />
+   <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cm" revision="cm-12.1" />
 
    <!--Misc-->
    <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
    <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
+   <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-12.1" />
 </manifest>
 
